@@ -20,8 +20,8 @@ Add the dependency:
 
 ```
 dependencies {
-	  implementation 'com.github.bogdanustyak:Fonkster:Tag'
-	}
+	implementation 'com.github.bogdanustyak:Fonkster:0.0.1'
+}
 ```
 
 ## How to use this library in your project?
