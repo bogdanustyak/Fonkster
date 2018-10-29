@@ -22,19 +22,17 @@ class FileDownloader {
      * If couldn't download returns null.
      */
     fun download(link: String, path: String): String? {
-        var downloadedFilePath: String? = null
-        if (!File(path).exists()) {
+        if (File(path).exists()) {
+            return path
+        } else {
             val input = URL(link).openStream()
             val output = FileOutputStream(File(path))
             input.use { _ ->
                 output.use { _ ->
                     input.copyTo(output)
-                    downloadedFilePath = path
+                    return path
                 }
             }
-        } else {
-            downloadedFilePath = path
         }
-        return downloadedFilePath
     }
 }
