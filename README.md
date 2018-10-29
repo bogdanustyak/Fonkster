@@ -28,7 +28,8 @@ dependencies {
 ```kotlin
   val fontLink = "https://site.com/fontFile.ttf"
   val fontFileName = "fontFile.ttf"
-  tv_text.typeface = Fonkster(baseContext, fontLink, fontFileName).typeFace()
+  val fonkster = Fonkster.with(applicationContext)
+  tv_text.typeface = fonkster.typeFace(fontLink, fontFileName)
 ```
 
 ## License
