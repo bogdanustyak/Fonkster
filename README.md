@@ -1,4 +1,4 @@
-[![Hits-of-Code](https://hitsofcode.com/github.com/yegor256/hoc)](https://hitsofcode.com/view/github.com/yegor256/hoc)
+[![Hits-of-Code](https://hitsofcode.com/github/bogdanustyak/Fonkster)](https://hitsofcode.com/view/github/bogdanustyak/Fonkster)
 
 # Fonkster
 Fonkster is Android library for dynamically loading fonts from URL written in Kotlin.
